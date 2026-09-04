@@ -20,14 +20,12 @@ body {
     background: #f2f2f2;
     padding: 6px;
 }
+
 summary {cursor: pointer;}
 summary.menu::marker {color: #74c775}
 summary.menu:hover {color: #74c775 }
 summary.studio::marker { color: #68b6ea }
 summary.studio:hover{ color: #68b6ea }
-
-
-
 
 .header {
   width: 100%;
@@ -180,7 +178,7 @@ summary.studio:hover{ color: #68b6ea }
 .project__info {
     position: fixed;
     top:50vh; 
-    z-index: 80;
+    z-index: 20;
     width: 100%;
     height: 25px;
 
