@@ -1,0 +1,101 @@
+body,
+p,
+li,
+q,
+.label-text,
+.tag,
+.text-xs {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: var(--negro);
+  line-height: 100%;
+}
+
+p,
+li,
+.body {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 125%;
+}
+
+.body-xs {
+  font-size: 0.875rem;
+  font-weight: 200;
+  line-height: 125%;
+  color: #737373;
+}
+
+q {
+  font-weight: 200;
+  font-size: 1.4rem;
+  line-height: 115%;
+}
+
+h2,
+.t2 {
+  font-weight: 200;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 115%;
+  
+}
+
+h3,
+.t3 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 120%;
+  
+}
+
+h4,
+h5,
+.t5 {
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+h6,
+.label-text {
+  font-weight: 200;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+
+.tag {
+  font-weight: 200;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: fit-content;
+
+  } 
+.text-xs {line-height: 110%;}
+.tag {line-height: 90%;}
+
+  @media (max-width: 600px) {
+
+    
+
+    .label-text{line-height: 110%;}
+
+    .tag.rayas {font-size: 0.7rem;}
+
+    .small-mobile{
+       font-weight: 200;
+       font-size: 0.85rem;
+       letter-spacing: -0.01em;
+       
+    }
+  }
