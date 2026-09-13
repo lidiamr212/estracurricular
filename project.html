@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estracurricular Design</title>
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  	
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+</head>
+
+<body>
+<aside class="botonback">
+    <button onclick="history.back()">◀  <p class="text-heading-3">Volver</p></button>
+</aside>
+    <main>
+    <div class="projectPage">
+        <img id="project-cover" src="" class="imgPortada">
+        <section class="bloque">
+
+            <div class="projectPage-photos">
+                <div class="bloqueTitulo">
+                    <h1 id="project-title" class="text-heading-1"></h1>
+                    <h2 id="project-subtitle" class="text-heading-2"></h2>
+                </div >
+                <div id="project-images" class="bloquePhotos">
+                </div>
+            </div>
+            
+            <div class="projectPage-info">
+                <div class="bloqueTags">
+                    <span class="lineaTags"><p class="text-label">Tag</p><p id="project-tag" class="text-body-sm"></p></span>
+                    <span class="lineaTags"><p class="text-label">Servicios</p><p id="project-service" class="text-body-sm"></p></span>
+                    <span class="lineaTags"><p class="text-label">Año</p><p id="project-year" class="text-body-sm"></p></span>
+                </div>
+                <div class="bloqueTexto">
+                    <span class="textoPrincipal accordion-item active">
+                        <h4 class="text-heading-3 accordion-header" id="project-heading"></h4>
+                        <div class="accordion-content"> 
+                            <p class="text-body" id="project-text"></p>
+                        </div>
+                    </span>
+
+                    <div class="TextoAccordion accordion-item">
+                        <button class="accordion-header">
+                            <p class="text-label" id="project-ACC1heading"></p>
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content"> 
+                            <p class="text-body" id="project-ACC1text"></p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <p class="text-label" id="project-ACC2heading">The Challenge</p>
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content"> 
+                            <p class="text-body" id="project-ACC2text"></p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        </div>
+    </main>
+     <script src="./js/accordion.js"></script>
+    <script src="./js/data-project.js"></script>
+    <script src="./js/page-projects.js"></script>
+
+</body>
+
+</html>

@@ -1,30 +1,81 @@
-body,
-p,
-li,
-q,
-.label-text,
-.tag,
-.text-xs {
+
+
+/* Grosor Ligth (200) */
+@font-face {
+  font-family: 'Cal Sans';
+  src: url('/assets/webfonts/CalSansText-Light.woff2') format('woff2');
+  font-weight: 200; /* O 'normal' */
+  font-style: normal;
+ 
+}
+
+/* Grosor Bold */
+@font-face {
+  font-family: 'Cal Sans';
+  src: url('/assets/webfonts/CalSansText-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+html {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
-  color: var(--negro);
+  color: #111;
   line-height: 100%;
+  letter-spacing: 0;
 }
 
-p,
-li,
-.body {
+.text-display {}
+
+.text-heading-1 {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 105%;
+  letter-spacing: 0;    
+}
+.text-heading-2 {
+  font-weight: 200;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 115%;
+}
+
+.text-heading-3{
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.text-body {
   font-size: 1rem;
   font-weight: 200;
   line-height: 125%;
 }
 
-.body-xs {
+.text-body-sm {
   font-size: 0.875rem;
   font-weight: 200;
   line-height: 125%;
   color: #737373;
+}
+
+.text-caption {
+  font-weight: 200;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  }
+
+.text-label {
+  font-weight: 200;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 q {
@@ -33,62 +84,12 @@ q {
   line-height: 115%;
 }
 
-h2,
-.t2 {
-  font-weight: 200;
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  line-height: 115%;
-  
-}
-
-h3,
-.t3 {
-  font-weight: 200;
-  font-size: 1.5rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  line-height: 120%;
-  
-}
-
-h4,
-h5,
-.t5 {
-  font-weight: 200;
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-h6,
-.label-text {
-  font-weight: 200;
-  font-size: 0.6875rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-
-.tag {
-  font-weight: 200;
-  font-size: 0.8rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  width: fit-content;
-
-  } 
-.text-xs {line-height: 110%;}
-.tag {line-height: 90%;}
 
   @media (max-width: 600px) {
 
     
 
-    .label-text{line-height: 110%;}
+    .text-label{line-height: 110%;}
 
     .tag.rayas {font-size: 0.7rem;}
 
