@@ -27,10 +27,15 @@ html {
   letter-spacing: 0;
 }
 
-.text-display {}
+.text-display {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 5rem;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+}
 
 .text-heading-1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 200;
   line-height: 105%;
   letter-spacing: 0;    
@@ -87,7 +92,11 @@ q {
 
   @media (max-width: 600px) {
 
-    
+    .text-display { font-size: 4.3rem; }
+    .text-heading-1 {
+    font-size: 1.7rem;
+    hyphens: auto;
+    overflow-wrap: break-word; }
 
     .text-label{line-height: 110%;}
 

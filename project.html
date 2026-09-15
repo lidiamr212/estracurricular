@@ -25,27 +25,26 @@
 </aside>
     <main>
     <div class="projectPage">
-        <img id="project-cover" src="" class="imgPortada">
+    
+                <div class="bloqueTitulo">
+                    <h1 id="project-title" class="text-display"></h1>
+                    <h2 id="project-subtitle" class="text-heading-1"></h2>
+
+                </div >
+       
         <section class="bloque">
 
-            <div class="projectPage-photos">
-                <div class="bloqueTitulo">
-                    <h1 id="project-title" class="text-heading-1"></h1>
-                    <h2 id="project-subtitle" class="text-heading-2"></h2>
-                </div >
-                <div id="project-images" class="bloquePhotos">
-                </div>
-            </div>
+            <div id="project-images" class="bloquePhotos"></div>
             
             <div class="projectPage-info">
                 <div class="bloqueTags">
-                    <span class="lineaTags"><p class="text-label">Tag</p><p id="project-tag" class="text-body-sm"></p></span>
-                    <span class="lineaTags"><p class="text-label">Servicios</p><p id="project-service" class="text-body-sm"></p></span>
-                    <span class="lineaTags"><p class="text-label">Año</p><p id="project-year" class="text-body-sm"></p></span>
+                    <span class="lineaTags"><p class="text-label"><mark>Tag</mark></p><p id="project-tag" class="text-body-sm"></p></span>
+                    <span class="lineaTags"><p class="text-label"><mark>Servicios</mark></p><p id="project-service" class="text-body-sm"></p></span>
+                    <span class="lineaTags"><p class="text-label"><mark>Año</mark></p><p id="project-year" class="text-body-sm"></p></span>
                 </div>
                 <div class="bloqueTexto">
                     <span class="textoPrincipal accordion-item active">
-                        <h4 class="text-heading-3 accordion-header" id="project-heading"></h4>
+                        <h4 class="text-heading-3 accordion-header" id="project-heading" style="display: inline;"></h4>
                         <div class="accordion-content"> 
                             <p class="text-body" id="project-text"></p>
                         </div>
@@ -78,9 +77,43 @@
 
         </div>
     </main>
-     <script src="./js/accordion.js"></script>
-    <script src="./js/data-project.js"></script>
-    <script src="./js/page-projects.js"></script>
+
+<!-- START: Footer -->
+<footer>
+<section class="textoFooter">
+<!-- Bloque 1 -->
+  <h2 class="bloq1 text-heading-1"> Diseño sencillo</h2>
+<!-- Bloque 2 -->
+  <h2 class="text-heading-1">con ideas brillantes :)</h2>
+<!-- Bloque 3 -->
+  <div>
+    <h4 class="text-label">Enlaces de interes</h4>
+    <span>
+      <svg width="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25003 11.1222L19.4514 11.1358M9.70215 1.25L19.6016 11.1495L9.70215 21.049" stroke="#1E1E1C" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/></svg>
+      hola@estracurricular <mark>[EMAIL]</mark>
+    </span>
+    <span>
+      <svg width="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25003 11.1222L19.4514 11.1358M9.70215 1.25L19.6016 11.1495L9.70215 21.049" stroke="#1E1E1C" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/></svg>
+      @estracurricular <mark>[IG]</mark>
+    </span>
+    <p class="text-body" style="margin-top: 24px;">¿Empezamos?<br> Solo falta que digas 'hola' (ya sabes dónde)</p>
+  </div>
+</section>
+<!-- Bloque 3 -->
+<section class="logoFooter">
+  <span>Estracurricular</span>
+</section>
+  <p class="text-label" style=" text-align: center;">© 2026  / Diseñado en Figma - Construido en Visual Code / Privacy / Terms</p>
+
+</footer>
+ <!-- END: Footer -->
+  
+ 
+<script src="./js/accordion.js"></script>
+<script src="./js/data-project.js"></script>
+<script src="./js/page-projects.js"></script>
+
+
 
 </body>
 
