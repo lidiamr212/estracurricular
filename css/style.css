@@ -245,11 +245,11 @@ mark {background-color: white; padding: 0.5px 2px ;}
 
       & .bloque__titulo {
         width: 100%;
-        margin-block: 16px 190px;
+        margin-block: 16px 64px;
         margin-left: 0px;
-        gap: 16px;
+        gap: 24px;
       }
-      & img { width: 115px; top: 30%; left: 30%;
+      & img { width: 115px; top: 20%; left: 30%;
       }
       & .bloque__contacto {
         display: flex;
@@ -260,8 +260,13 @@ mark {background-color: white; padding: 0.5px 2px ;}
 
     .aside_infoSobreMi {
       width: auto; 
-      left:16px; right: 16px;
+      left:16px; 
       padding: 24px;
+
+          & .contacto {gap:4px;}
+          & h6 {text-decoration: none;}
+
+          
 
     }
 }

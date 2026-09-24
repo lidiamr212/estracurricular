@@ -16,7 +16,8 @@ const projects = {
         
         images: [
             "./assets/img/abbey/murcia-1.jpg",
-            "./assets/img/abbey/cartel-rutas.png"
+            "./assets/img/abbey/cartel-rutas.png",
+            ["./assets/img/abbey/cartel1.jpg","./assets/img/abbey/cartel2.png"]
         ]
     },
 
@@ -42,11 +43,15 @@ const projects = {
             "./assets/img/calima/letrero-3.png",
             ["./assets/img/calima/calima-3a.png", "./assets/img/calima/calima-3b.jpg"],
             "./assets/img/calima/calima-4.png",
+            "./assets/img/calima/calima-ordenador.jpg",
             "./assets/img/calima/calima-5.png",
             "./assets/img/calima/letrero-4.png",
+
+            "./assets/img/calima/calima-movil.jpg",
             ["./assets/img/calima/calima-6a.jpg", "./assets/img/calima/calima-6b.png"],
             "./assets/img/calima/calima-8.png",
             "./assets/img/calima/letrero-2.png",
+            "./assets/img/calima/calima-movil2.jpg",
         ]
     },
 
@@ -83,7 +88,7 @@ const projects = {
             
             "./assets/img/abbey/abbey-02.png",
             ["./assets/img/abbey/abbey-1.jpg", "./assets/img/abbey/abbey-2.jpg",],
-            "./assets/img/abbey/abbey-1b.png",
+            "./assets/img/abbey/abbey-1b.jpg",
              "./assets/img/abbey/abbey-03.png",
             
             "./assets/img/abbey/abbey-04.png",
@@ -117,20 +122,70 @@ const projects = {
         images: [
             ["./assets/img/pesca/pesca-0a.png", "./assets/img/pesca/pesca-0d.png",],
             "./assets/img/pesca/folletoespaña.png",
-
+            "./assets/img/pesca/poster2.jpg",
             "./assets/img/pesca/tresgrupos.png",
-             "./assets/img/pesca/pesca-1.jpg",
-            "./assets/img/pesca/blancoyazul.png",
+            ["./assets/img/pesca/folletoa.jpg", "./assets/img/pesca/españaig.png",],
+            "./assets/img/pesca/partescastel.jpg",
+            "./assets/img/pesca/tipospescas.png",
+             "./assets/img/pesca/blancoyazul.png",
+            "./assets/img/pesca/pesca-1.jpg",
             ["./assets/img/pesca/pesca-0b.png", "./assets/img/pesca/pesca-0c.png",],
              "./assets/img/pesca/marinera.png",
-            "./assets/img/pesca/tipospescas.png",
-            "./assets/img/pesca/encomun.png",
-            "./assets/img/pesca/españa.png",
-            "./assets/img/pesca/tipospescado.png",
-            "./assets/img/pesca/tipospeces.png",
+            ["./assets/img/pesca/pesca-2a.jpg","./assets/img/pesca/folletob.jpg"],
+            "./assets/img/pesca/presentacion.jpg",
+            "./assets/img/pesca/pesca-08.png",
+            "./assets/img/pesca/encuesta.jpg",
+            "./assets/img/pesca/libreta2.jpg",
             
            
-            "./assets/img/pesca/fuente.png",
+            
+           
+            
+
+        ]
+    },
+
+    proyectoEcos: {
+        title: "Ecos del carcabo",
+        subtitle: "Dibujos, colores y tipografías que hablan de una tierra, de quienes la habitan y de su forma de relacionarse con ella. Un relato que recupera la memoria agrícola y cultural del territorio para poner en valor algo esencial: el vínculo entre las personas y la naturaleza.",
+        tag: "Branding · Ilustración · Cultura · React · offline + online ",
+        service: "Estrategia de marca · Identidad visual · Dirección de arte · Arquitectura de contenidos",
+        year: "En desarollo",
+
+        heading: "Algún punto entre lo técnico y lo orgánico.",
+        text: "Desarrollo de identidad de marca, piezas gráficas y diseño web para Ecos del Cárcabo, una empresa familiar dedicada a la explotación agrícola y turística en Cieza. Inspirado en la relación simbiótica entre el ser humano y la naturaleza, el universo visual combina elementos técnicos con trazos orgánicos. Este concepto articula el relato de marca, aplicándose de forma coherente en el diseño de carteles, el etiquetado de producto y la arquitectura de contenidos. Actualmente la web esta en fase de desarrollo con React, el proceso incluye la maquetación de la interfaz y la adaptación de componentes en código, garantizando la fidelidad visual, el detalle y la solidez del sistema.",
+        
+        
+        images: [
+            "./assets/img/ecos/portada.jpg",
+            "./assets/img/ecos/logo.png",
+            
+            ["./assets/img/ecos/dispositivosa.png", "./assets/img/ecos/dispositivosBB.jpg",],
+            "./assets/img/ecos/arteherramienta.png",
+
+            "./assets/img/ecos/llegando.jpg",
+            "./assets/img/ecos/heroA.png", 
+            "./assets/img/ecos/hojastop.jpg",
+            ["./assets/img/ecos/detalleA.png", "./assets/img/ecos/detalleB.png",],
+            "./assets/img/ecos/ordenador4.jpg",
+
+            ["./assets/img/ecos/botella.jpg", "./assets/img/ecos/botella2.jpg",],
+            
+            "./assets/img/ecos/tarjetas.png",
+            "./assets/img/ecos/heroB.png",
+            ["./assets/img/ecos/jarrones.jpg", "./assets/img/ecos/cardenmano.jpg",],
+            "./assets/img/ecos/folder.jpg",
+            "./assets/img/ecos/actividades.png",
+            ["./assets/img/ecos/detalleD.png", "./assets/img/ecos/detalleC.png",],
+
+
+
+           
+            
+           
+            
+           
+            
 
         ]
     },
