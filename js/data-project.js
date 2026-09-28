@@ -13,6 +13,10 @@ const projects = {
         heading: "**Una pieza de identidad territorial** con un enfoque divertido y accesible",
         text: "El encargo consistía en diseñar el cartel promocional para este proyecto independiente de rutas guiadas por la naturaleza. La idea era crear una pieza que reflejara su carácter dinámico a través de una propuesta visual desenfadada y fresca. Aunque la iniciativa quedó finalmente paralizada, el cartel conserva bien su espíritu: un mapa ilustrado de la región como hilo conductor, fotografías reales de los paisajes protagonistas de estas rutas y una paleta llamativa —verde y naranja— que conecta con la naturaleza sin perder frescura. El resultado combina identidad territorial con un tono cercano y divertido, pensado para llegar a públicos familiares.",
         
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
         
         images: [
             "./assets/img/abbey/murcia-1.jpg",
@@ -65,6 +69,10 @@ const projects = {
         heading: "**Obligue a mis amigos a que me prepararan Gildas divertidas**",
         text: "Podriamos describirlo como un evento gastronómico e informal entre amigos dedicado a cocinar e inventar distintas combinaciones de gildas. La gráfica toma su nombre de un popular guiño musical para construir una propuesta divertida, fresca y de marcado aire festivo. El concepto visual orbita sobre un contraste deliberado: por un lado, una tipografía serif clásica y refinada aporta cierto aire de solemnidad; por otro, la ilustración desenfadada de una gilda gigante rompe esa etiqueta formal para conectar con lo cotidiano y lo lúdico. Esta convivencia entre el estilo editorial sofisticado y el trazo ilustrado busca elevar un aperitivo tan tradicional a la categoría de acontecimiento. Concebido como una invitación gráfica y un elemento de bienvenida, el cartel no solo busca anunciar el evento, sino también anticipar la atmósfera del encuentro: una tarde distendida, entre cañas, banderillas, experimentación en la cocina y buena compañía.",
         
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
         
         images: [
             "./assets/img/graficas/gildas-2.png",
@@ -83,6 +91,10 @@ const projects = {
         heading: "**El diseño como acompañante** de la palabra escrita",
         text: "El encargo consistía en diseñar la portada y la maquetación editorial de esta obra autoeditada, cuidando cada detalle de principio a fin. La propuesta combina técnicas de collage e ilustración lineal para construir una gráfica que dialoga de forma fluida con las fotografías analógicas hechas por la mejor amiga de la autora. La línea se convierte en el nexo de unión del libro, guiando al lector a lo largo de sus páginas y conviviendo con todos los elementos que lo integran. Por otro lado la cuidada jerarquía tipográfica y el ritmo visual garantizan la coherencia del sistema, dando como resultado un objeto editorial sólido que acompaña y eleva la lectura del texto.",
         
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
         
         images: [
             
@@ -154,31 +166,44 @@ const projects = {
 
         heading: "Algún punto entre lo técnico y lo orgánico.",
         text: "Desarrollo de identidad de marca, piezas gráficas y diseño web para Ecos del Cárcabo, una empresa familiar dedicada a la explotación agrícola y turística en Cieza. Inspirado en la relación simbiótica entre el ser humano y la naturaleza, el universo visual combina elementos técnicos con trazos orgánicos. Este concepto articula el relato de marca, aplicándose de forma coherente en el diseño de carteles, el etiquetado de producto y la arquitectura de contenidos. Actualmente la web esta en fase de desarrollo con React, el proceso incluye la maquetación de la interfaz y la adaptación de componentes en código, garantizando la fidelidad visual, el detalle y la solidez del sistema.",
-        
+       
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
         
         images: [
             "./assets/img/ecos/portada.jpg",
-            "./assets/img/ecos/logo.png",
-            
             ["./assets/img/ecos/dispositivosa.png", "./assets/img/ecos/dispositivosBB.jpg",],
-            "./assets/img/ecos/arteherramienta.png",
-
+            [null,"./assets/img/ecos/prueba2.png",],
+            "./assets/img/ecos/textos.png",
             "./assets/img/ecos/llegando.jpg",
-            "./assets/img/ecos/heroA.png", 
-            "./assets/img/ecos/hojastop.jpg",
-            ["./assets/img/ecos/detalleA.png", "./assets/img/ecos/detalleB.png",],
-            "./assets/img/ecos/ordenador4.jpg",
-
-            ["./assets/img/ecos/botella.jpg", "./assets/img/ecos/botella2.jpg",],
+            ["./assets/img/ecos/bloq4a.png", "./assets/img/ecos/foto4.jpg",],
+            [null, "./assets/img/ecos/tarjeta.png",],
+            "./assets/img/ecos/hojastop.png",
+            "./assets/img/ecos/pum.jpg",
+            ["./assets/img/ecos/poster1.jpg", null],
             
-            "./assets/img/ecos/tarjetas.png",
-            "./assets/img/ecos/heroB.png",
-            ["./assets/img/ecos/jarrones.jpg", "./assets/img/ecos/cardenmano.jpg",],
-            "./assets/img/ecos/folder.jpg",
-            "./assets/img/ecos/actividades.png",
+
+            ["./assets/img/ecos/foto1.jpg", "./assets/img/ecos/foto2.jpg"],
+
+            "./assets/img/ecos/comolohacemos.png",
+            
+
+            ["./assets/img/ecos/home.png", "./assets/img/ecos/dentro.jpg"],
+                       "./assets/img/ecos/movil.jpg",
+
+            ["./assets/img/ecos/botella21.png", "./assets/img/ecos/botella.jpg",],
+
+   
+
+             "./assets/img/ecos/actividades.png",
             ["./assets/img/ecos/detalleD.png", "./assets/img/ecos/detalleC.png",],
+            [null, "./assets/img/ecos/detalleB.png", ],
 
 
+       
+           
 
            
             

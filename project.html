@@ -21,7 +21,7 @@
 
 <body>
 <aside class="botonback">
-    <button onclick="history.back()">◀  <p class="text-heading-3">Volver</p></button>
+    <button onclick="history.back()"><span class="arrow"></span> <p class="text-heading-3">Volver</p></button>
 </aside>
     <main>
     <div class="projectPage">
@@ -50,7 +50,7 @@
                         </div>
                     </span>
 
-                    <div class="TextoAccordion accordion-item">
+                    <div class="TextoAccordion accordion-item" id="accordion-1">
                         <button class="accordion-header">
                             <p class="text-label" id="project-ACC1heading"></p>
                             <span class="icon">+</span>
@@ -60,15 +60,14 @@
                         </div>
                     </div>
 
-                    <div class="accordion-item">
+                    <div class="accordion-item" id="accordion-2">
                         <button class="accordion-header">
                             <p class="text-label" id="project-ACC2heading">The Challenge</p>
                             <span class="icon">+</span>
                         </button>
-                        <div class="accordion-content"> 
-                            <p class="text-body" id="project-ACC2text"></p>
-                            
-                        </div>
+                            <div class="accordion-content"> 
+                                <p class="text-body" id="project-ACC2text"></p>
+                            </div>
                     </div>
                 </div>
             </div>
