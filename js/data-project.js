@@ -55,7 +55,7 @@ const projects = {
             ["./assets/img/calima/calima-6a.jpg", "./assets/img/calima/calima-6b.png"],
             "./assets/img/calima/calima-8.png",
             "./assets/img/calima/letrero-2.png",
-            "./assets/img/calima/calima-movil2.jpg",
+          
         ]
     },
 
