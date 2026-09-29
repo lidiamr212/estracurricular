@@ -183,35 +183,53 @@ const projects = {
             "./assets/img/ecos/hojastop.png",
             "./assets/img/ecos/pum.jpg",
             ["./assets/img/ecos/poster1.jpg", null],
-            
-
             ["./assets/img/ecos/foto1.jpg", "./assets/img/ecos/foto2.jpg"],
-
             "./assets/img/ecos/comolohacemos.png",
-            
-
             ["./assets/img/ecos/home.png", "./assets/img/ecos/dentro.jpg"],
-                       "./assets/img/ecos/movil.jpg",
-
+             "./assets/img/ecos/movil.jpg",
             ["./assets/img/ecos/botella21.png", "./assets/img/ecos/botella.jpg",],
-
-   
-
              "./assets/img/ecos/actividades.png",
             ["./assets/img/ecos/detalleD.png", "./assets/img/ecos/detalleC.png",],
             [null, "./assets/img/ecos/detalleB.png", ],
+        ]
+    },
 
+    proyectoItaca: {
+        title: "Coopertativa Itaca",
+        subtitle: "Una reflexión sobre el presente, pasado y futuro. Fortaleciendo el legado de una historia y una voz que sigue siendo, a día de hoy, una fuente de inspiración y un referente cultural en la ciudad.",
+        tag: "Branding · Ilustración · Cultura · Gastronomía · Murcia · Rediseño ",
+        service: "Estrategia de marca · Identidad visual · Dirección de arte · Arquitectura de contenidos",
+        year: "2024",
 
+        heading: "Algún punto entre lo técnico y lo orgánico.",
+        text: "Este es un proyecto de rediseño, un ejercicio de atención y reconocimiento que parte de la necesidad de acercar su antigua imagen a una nueva estrategia y a una identidad verbal más coherente con el entorno en el que la marca vive y respira cada día. Ítaca es un pequeño bar en el centro de Murcia, conocido por sus micros abiertos y sus conciertos. Un espacio ligado a la cultura popular, la improvisación y la expresión espontánea: primeras líneas y últimos poemas, melodías recién aprendidas, risas, aplausos y juegos. Pensar en Ítaca es pensar en acordes improvisados, sentimientos recién descubiertos, bocetos a lápiz y textos escritos deprisa sobre cuadernos desgastados. Una identidad construida desde lo cercano, lo imperfecto y lo vivo; desde todo aquello que sucede cuando las personas se encuentran y se atreven a crear.",
        
-           
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
+        
+        images: [
+            "./assets/img/itaca/portada.jpg",
+            ["./assets/img/itaca/logosemi.png", "./assets/img/itaca/foto1.jpg",],
+            ["./assets/img/itaca/carta1.png", null,],
+            "./assets/img/itaca/logoazul.png",
+            "./assets/img/itaca/carta2.png",
+            [null,"./assets/img/itaca/ig.png",],
+            "./assets/img/itaca/cartelfondo.jpg",
+            "./assets/img/itaca/logos2.png",
+            ["./assets/img/itaca/coktel.jpg", "./assets/img/itaca/cokteles.png"],
+            [ "./assets/img/itaca/iconos.png", "./assets/img/itaca/igmarinera.png"],
+            "./assets/img/itaca/posavasos.jpg",
 
-           
-            
-           
-            
-           
-            
 
+            
+            
+            ["./assets/img/itaca/poster.jpg", null],
+            
+            
+          
+       
         ]
     },
 
