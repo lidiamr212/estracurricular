@@ -81,6 +81,8 @@ html {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   white-space: nowrap;
+
+  
 }
 
 q {
@@ -98,7 +100,11 @@ q {
     hyphens: auto;
     overflow-wrap: break-word; }
 
-    .text-label{line-height: 110%;}
+    .text-label{
+      line-height: 110%;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+    }
 
     .tag.rayas {font-size: 0.7rem;}
 

@@ -258,7 +258,7 @@ mark {background-color: white; padding: 0.5px 2px ;}
         margin-left: 0px;
         gap: 24px;
       }
-      & img { width: 115px; top: 20%; left: 30%;
+      & img { width: 165px; top: 20%; left: 20%;
       }
       & .bloque__contacto {
         display: flex;
@@ -356,8 +356,10 @@ mark {background-color: white; padding: 0.5px 2px ;}
 
 @media (max-width: 600px) {
 
-      .project__info { top:40vh }
+      .project__info { top:48vh }
       .portfolio__intro { height: 40vh }
+      #project-counter {text-align: center}
+      #project-year {text-align: right;}
 
       .projects {
             width: 100%;
@@ -608,13 +610,14 @@ footer {
   & .textoFooter {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 8px;
     margin-bottom: 32px;
     & .bloq1 {text-align: left;}
     & h2 {margin: 0;}
     & h4 {margin-top: 32px;}
     & .inside { display:none;}
     & .aclarar {color: #58707b;}
+    & .claim{ height: auto;}
   }
   & .logoFooter{
     & span {font-size: 14vw; top: 85%;}

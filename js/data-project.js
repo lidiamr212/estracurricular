@@ -165,7 +165,7 @@ const projects = {
     },
 
     proyectoEcos: {
-        title: "Ecos del carcabo",
+        title: "Ecos del Cárcabo",
         subtitle: "Dibujos, colores y tipografías que hablan de una tierra, de quienes la habitan y de su forma de relacionarse con ella. Un relato que recupera la memoria agrícola y cultural del territorio para poner en valor algo esencial: el vínculo entre las personas y la naturaleza.",
         tag: "Branding · Ilustración · Cultura · React · offline + online ",
         service: "Estrategia de marca · Identidad visual · Dirección de arte · Arquitectura de contenidos",
