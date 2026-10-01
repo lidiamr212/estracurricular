@@ -258,7 +258,11 @@ mark {background-color: white; padding: 0.5px 2px ;}
         margin-left: 0px;
         gap: 24px;
       }
-      & img { width: 165px; top: 20%; left: 20%;
+      & img { 
+        width: 165px; 
+        top: 20%; 
+        left: 50%;
+         transform: translateX(-50%);
       }
       & .bloque__contacto {
         display: flex;
