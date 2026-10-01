@@ -527,13 +527,18 @@ footer {
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0px;
+    gap: 8px;
+    max-width: 1050px;
 
-    & h2 {margin-top: 75px;}
-    & .bloq1 { 
-      text-align: right;
-      padding-right: 32px;
-      margin-top: 25px;
+    & .claim {
+      display: flex;
+      flex-direction: column;
+      height: 215px;
+    }
+    & .sticker{
+      display: inline-block;
+      position:sticky;
+      top: 25%;
     }
 
     & .espacioI {padding-right: 10vw;}

@@ -27,7 +27,7 @@ const projects = {
 
      proyectoCalima: {
         title: "Associacio Calima",
-        subtitle: "Actualización de la identidad digital de Calima, un proyecto que encarna la evolución de la organización hacia una causa más visible y cercana. Con más de 6 años defendiendo los derechos de la comunidad saharaui, Calima es una pequeña organización que, desde la constancia y el compromiso, mantiene viva la lucha por el activismo social en la Comunidad Valenciana",
+        subtitle: "Actualización de la identidad digital de Calima, un proyecto que encarna la evolución de la organización hacia una causa más visible y cercana. Con más de 4 años defendiendo los derechos de la comunidad saharaui, Calima es una pequeña organización que, desde la constancia y el compromiso, mantiene viva la lucha por el activismo social en la Comunidad Valenciana",
         tag: "Diseño Web · Identidad",
         service: "Web Development · UX/UI · Digital Architecture · Technical SEO",
         year: "2024",
@@ -44,8 +44,12 @@ const projects = {
             "./assets/img/calima/letrero-1.png",
             "./assets/img/calima/calima-0.png",
             "./assets/img/calima/calima-2.png",
+            ["./assets/img/calima/movil21.jpg", null],
+
             "./assets/img/calima/letrero-3.png",
             ["./assets/img/calima/calima-3a.png", "./assets/img/calima/calima-3b.jpg"],
+            [null, "./assets/img/calima/ig.png"],
+
             "./assets/img/calima/calima-4.png",
             "./assets/img/calima/calima-ordenador.jpg",
             "./assets/img/calima/calima-5.png",
@@ -100,7 +104,7 @@ const projects = {
             
             "./assets/img/abbey/abbey-02.png",
             ["./assets/img/abbey/abbey-1.jpg", "./assets/img/abbey/abbey-2.jpg",],
-            "./assets/img/abbey/abbey-1b.jpg",
+            ["./assets/img/abbey/abbey-1b.jpg", null],
              "./assets/img/abbey/abbey-03.png",
             
             "./assets/img/abbey/abbey-04.png",
@@ -134,19 +138,22 @@ const projects = {
         images: [
             ["./assets/img/pesca/pesca-0a.png", "./assets/img/pesca/pesca-0d.png",],
             "./assets/img/pesca/folletoespaña.png",
-            "./assets/img/pesca/poster2.jpg",
+            [null, "./assets/img/pesca/aula.jpg",],
+            ["./assets/img/pesca/poster2copia.jpg", null],
             "./assets/img/pesca/tresgrupos.png",
             ["./assets/img/pesca/folletoa.jpg", "./assets/img/pesca/españaig.png",],
-            "./assets/img/pesca/partescastel.jpg",
+            ["./assets/img/pesca/encuesta.png", null],
             "./assets/img/pesca/tipospescas.png",
              "./assets/img/pesca/blancoyazul.png",
             "./assets/img/pesca/pesca-1.jpg",
             ["./assets/img/pesca/pesca-0b.png", "./assets/img/pesca/pesca-0c.png",],
              "./assets/img/pesca/marinera.png",
-            ["./assets/img/pesca/pesca-2a.jpg","./assets/img/pesca/folletob.jpg"],
-            "./assets/img/pesca/presentacion.jpg",
-            "./assets/img/pesca/pesca-08.png",
-            "./assets/img/pesca/encuesta.jpg",
+            ["./assets/img/pesca/aula2.jpg","./assets/img/pesca/folletob.jpg"],
+            "./assets/img/pesca/presentacion1.png",
+                        "./assets/img/pesca/pesca-08.png",
+
+            [null, "./assets/img/pesca/partescastel.jpg",],
+
             "./assets/img/pesca/libreta2.jpg",
             
            
@@ -225,7 +232,7 @@ const projects = {
 
             
             
-            ["./assets/img/itaca/poster.jpg", null],
+            ["./assets/img/itaca/poster.jpg", "./assets/img/itaca/papel.jpg"],
             
             
           
