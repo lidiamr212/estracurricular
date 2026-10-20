@@ -59,7 +59,6 @@ const projects = {
             ["./assets/img/calima/calima-6a.jpg", "./assets/img/calima/calima-6b.png"],
             "./assets/img/calima/calima-8.png",
             "./assets/img/calima/letrero-2.png",
-          
         ]
     },
 
@@ -87,16 +86,16 @@ const projects = {
 
     proyectoCharate: {
         title: "Tras el canto de un charate",
-        subtitle: "Un cántico a la lucha personal, la conexión con la naturaleza y el amor en todas sus formas. Este poemario autoeditado, escrito a lo largo de cinco años, reinterpreta los grandes temas de la literatura (el amor, la vida y la muerte) entrelazando lo cotidiano del dolor con la belleza de la vida de forma íntima.",
+        subtitle: "Un canto a la lucha personal, a la conexión con la naturaleza y al amor en todas sus formas. Este poemario autoeditado recoge lo vivido y lo transforma en versos que dialogan con la fotografía, el collage y la ilustración, construyendo un recorrido íntimo y sensorial a través de sus páginas.",
         tag: "Collage digital · Poemario · Sistema visual · Storytelling · Autoedición ",
         service: "Diseño editorial · Dirección de arte · Maquetación",
         year: "2025",
 
-        heading: "**El diseño como acompañante** de la palabra escrita",
-        text: "El encargo consistía en diseñar la portada y la maquetación editorial de esta obra autoeditada, cuidando cada detalle de principio a fin. La propuesta combina técnicas de collage e ilustración lineal para construir una gráfica que dialoga de forma fluida con las fotografías analógicas hechas por la mejor amiga de la autora. La línea se convierte en el nexo de unión del libro, guiando al lector a lo largo de sus páginas y conviviendo con todos los elementos que lo integran. Por otro lado la cuidada jerarquía tipográfica y el ritmo visual garantizan la coherencia del sistema, dando como resultado un objeto editorial sólido que acompaña y eleva la lectura del texto.",
+        heading: "Versos con **acento murciano** que no piden permiso",
+        text: "Este pequeño poemario independiente y autoeditado nace de las manos de Abbey, creadora de contenido, poeta, educadora ambiental y periodista. En Tras el canto de un charrán, reinterpreta con un reivindicado acento murciano los tres grandes temas de la literatura: el amor, la vida y la muerte. Son cinco años de vivencias convertidas en poemas que cantan a la lucha personal y a la conexión con la naturaleza, acompañados por las fotografías analógicas que María, amiga de la autora, ha tomado durante el último año.",
         
-        ACC1heading: "",
-        ACC1text: "",
+        ACC1heading: "Un saltamontes, una línea y cinco años de poemas",
+        ACC1text: "Bajo esta premisa y como parte del encargo se diseño la portada como un collage con ilustración donde la fotografía del charate (saltamontes en murciano) ocupa todo el protagonismo. A partir de ahi, la línea acompaña al lector a lo largo de todo el libro, uniendo páginas, textos y fotografías. La maquetación, favorecida por el carácter autoeditado de la publicación, juega con la libertad de los versos y genera un ambiente más suelto y creativo. Al mismo tiempo, una jerarquía tipográfica cuidada y un ritmo visual constante garantizan la coherencia del sistema. El resultado es un objeto editorial sólido que acompaña y eleva la lectura del texto.",
         ACC2heading: "",
         ACC2text: "",
         
@@ -124,15 +123,15 @@ const projects = {
         subtitle: "Educamos sobre la pesca y el pescado en las aulas: tipos de pescado y marisco, técnicas de captura, su papel en la economía y algunas recetas. Cada pieza se pensó como una herramienta viva, capaz de acompañar la explicación en el aula y facilitar la comprensión de conceptos que, de otro modo, resultarían densos para este público.",
         tag: "Divulgación · Diseño para aulas · Ilustración infantil · Institucional · offline + online ",
         service: "Infografía · Material Didactico · Ilustración · Maquetacion",
-        year: "2025",
+        year: "2024",
 
-        heading: "Reforzar los conceptos clave a través de la imagen.",
-        text: "El encargo consistía en diseñar el material didáctico del taller infantil Del mar a tu casa: ¿Qué sabes del pescado y del marisco?, una iniciativa de Pesca España dirigida a alumnos de 1º de ESO e impartida en distintos centros educativos entre julio y diciembre de 2024. La idea era acercar a los estudiantes el mundo de la pesca de una forma clara y visual: qué tipos de pescado y marisco existen, cómo se pescan, qué papel juegan en la economía española y cómo pueden prepararse en la cocina, fomentando además una conciencia crítica sobre la pesca sostenible.",
+        heading: "Reforzar **los conceptos clave** a través de la imagen.",
+        text: "Del mar a tu casa: ¿Qué sabes del pescado y del marisco? es una iniciativa de Pesca España dirigida a alumnos de 1º de ESO, que se impartió en distintos centros educativos entre julio y diciembre de 2024. Como estrategia de comunicación, buscaba fomentar el consumo de pescado entre los más jóvenes a través de la transmisión de conocimientos de una forma clara, atractiva y visual: qué tipos de pescado y marisco existen, cómo se pescan, qué papel juegan en la economía española y cómo pueden prepararse en la cocina. Todo ello fomentando, además, una conciencia crítica sobre la pesca sostenible.",
         
         ACC1heading: "Construir un sistema gráfico que resultara accesible",
-        ACC1text:"Uno de los principales retos fue construir una gráfica que resultara fácil de leer y, al mismo tiempo, lo suficientemente atractiva como para captar la atención de un público infantil. El material debía funcionar como apoyo visual a la explicación de los profesores, ayudando a los alumnos a entender rápidamente el contexto de cada tema sin necesidad de largas explicaciones escritas. Para ello, se apostó por iconografía sencilla, contraste cromático, bloques de información dinámicos y bien diferenciados y jerarquías visuales sencillas, capaz de enganchar a los estudiantes desde el primer vistazo.",
-        ACC2heading:"Todo un universo de posibilidades",
-        ACC2text:"El trabajo incluyó la creación de folletos informativos, diplomas, encuestas, sliders y personajes personalizados, además de infografías y diagramas didácticos que facilitan la comprensión de conceptos clave. Para garantizar la coherencia con la estrategia de comunicación de la entidad, se tomó como referencia el manual de identidad de Pesca España, integrando su gráfica distintiva en cada pieza.",
+        ACC1text:"Uno de los principales retos fue construir un lenguaje gráfico fácil de leer y, al mismo tiempo, lo bastante atractivo como para captar la atención de un público infantil. El material debía funcionar como apoyo visual a la explicación del profesorado, ayudando a los pequeños alumnos a situarse en cada tema de un vistazo, sin depender de largas explicaciones escritas. Ademas debía mantener coherencia con la marca de Pesca España. ",
+        ACC2heading:"Todo un mar de posibilidades",
+        ACC2text:"Para lograrlo, se optó por una iconografía sencilla, un contraste cromático marcado, bloques de información dinámicos y bien diferenciados, y jerarquías visuales claras que enganchan a los estudiantes desde el primer vistazo. El trabajo abarcó folletos informativos, diplomas, encuestas, sliders y personajes personalizados, así como infografías y diagramas didácticos que facilitan la comprensión de los conceptos clave. Para mantener la coherencia con la estrategia de comunicación de la entidad, se empleo las ilustraciones que aparecían en el manual de identidad de Pesca España, integrando su gráfica distintiva en cada composición.",
         
         
         images: [
@@ -150,17 +149,9 @@ const projects = {
              "./assets/img/pesca/marinera.png",
             ["./assets/img/pesca/aula2.jpg","./assets/img/pesca/folletob.jpg"],
             "./assets/img/pesca/presentacion1.png",
-                        "./assets/img/pesca/pesca-08.png",
-
+             "./assets/img/pesca/pesca-08.png",
             [null, "./assets/img/pesca/partescastel.jpg",],
-
             "./assets/img/pesca/libreta2.jpg",
-            
-           
-            
-           
-            
-
         ]
     },
 
@@ -181,7 +172,7 @@ const projects = {
         
         images: [
             "./assets/img/ecos/portada.jpg",
-            ["./assets/img/ecos/dispositivosa.png", "./assets/img/ecos/dispositivosBB.jpg",],
+            ["./assets/img/ecos/movil2.png", "./assets/img/ecos/dispositivosBB2.jpg",],
             [null,"./assets/img/ecos/prueba2.png",],
             "./assets/img/ecos/textos.png",
             "./assets/img/ecos/llegando.jpg",
@@ -189,12 +180,16 @@ const projects = {
             [null, "./assets/img/ecos/tarjeta.png",],
             "./assets/img/ecos/hojastop.png",
             "./assets/img/ecos/pum.jpg",
+            ["./assets/img/ecos/logoycampo.jpg", "./assets/img/ecos/invitacion.png",],
+
             ["./assets/img/ecos/poster1.jpg", null],
             ["./assets/img/ecos/foto1.jpg", "./assets/img/ecos/foto2.jpg"],
             "./assets/img/ecos/comolohacemos.png",
             ["./assets/img/ecos/home.png", "./assets/img/ecos/dentro.jpg"],
-             "./assets/img/ecos/movil.jpg",
-            ["./assets/img/ecos/botella21.png", "./assets/img/ecos/botella.jpg",],
+            ["./assets/img/ecos/botella21.png", "./assets/img/ecos/gorra.jpg",],
+
+             "./assets/img/ecos/botes.jpg",
+            "./assets/img/ecos/botella.png",
              "./assets/img/ecos/actividades.png",
             ["./assets/img/ecos/detalleD.png", "./assets/img/ecos/detalleC.png",],
             [null, "./assets/img/ecos/detalleB.png", ],
@@ -204,17 +199,17 @@ const projects = {
     proyectoItaca: {
         title: "Coopertativa Itaca",
         subtitle: "Una reflexión sobre el presente, pasado y futuro. Fortaleciendo el legado de una historia y una voz que sigue siendo, a día de hoy, una fuente de inspiración y un referente cultural en la ciudad.",
-        tag: "Branding · Ilustración · Cultura · Gastronomía · Murcia · Rediseño ",
-        service: "Estrategia de marca · Identidad visual · Dirección de arte · Arquitectura de contenidos",
-        year: "2024",
+        tag: "Logotipo · Ilustración · Cultura · Gastronomía · Murcia · Rediseño ",
+        service: "Rediseño · Estrategía · Dirección de arte · Arquitectura de marca · Ilustracción",
+        year: "2023",
 
-        heading: "Algún punto entre lo técnico y lo orgánico.",
-        text: "Este es un proyecto de rediseño, un ejercicio de atención y reconocimiento que parte de la necesidad de acercar su antigua imagen a una nueva estrategia y a una identidad verbal más coherente con el entorno en el que la marca vive y respira cada día. Ítaca es un pequeño bar en el centro de Murcia, conocido por sus micros abiertos y sus conciertos. Un espacio ligado a la cultura popular, la improvisación y la expresión espontánea: primeras líneas y últimos poemas, melodías recién aprendidas, risas, aplausos y juegos. Pensar en Ítaca es pensar en acordes improvisados, sentimientos recién descubiertos, bocetos a lápiz y textos escritos deprisa sobre cuadernos desgastados. Una identidad construida desde lo cercano, lo imperfecto y lo vivo; desde todo aquello que sucede cuando las personas se encuentran y se atreven a crear.",
+        heading: "Nuestro bar **de siempre**",
+        text: "Ítaca es un pequeño bar en el centro de Murcia, conocido por sus micros abiertos y sus conciertos. Un espacio ligado a la cultura popular, la improvisación y la expresión espontánea: primeras líneas y últimos poemas, melodías recién aprendidas, risas, aplausos y juegos.",
        
-        ACC1heading: "",
-        ACC1text: "",
-        ACC2heading: "",
-        ACC2text: "",
+        ACC1heading: "Con una nueva imagen",
+        ACC1text: "Este proyecto de rediseño es un ejercicio de atención y reconocimiento. Nace de una necesidad sencilla: que la imagen de siempre acompañe a la marca en su nueva etapa, con una estrategia renovada, un público distinto y un entorno digital donde la marca vive y respira cada día. No se trata de empezar de cero, sino de escuchar lo que la marca ya es, entender cómo se la percibe hoy y darle una forma que la represente mejor. Es bien sabido que una identidad solo cobra sentido cuando las personas se reconocen en ella y la sienten como propia.",
+        ACC2heading: "Pero con esa esencia de siempre",
+        ACC2text: "Se ha rediseñado el logotipo y el icono respetando su estructura original, pero dotándolos de más personalidad y alineándolos con las tendencias actuales. Además, se ha cuidado especialmente su comportamiento en tamaños reducidos y su uso en entornos digitales. Se incorpora el azul como color corporativo, que aporta una esencia más joven y fresca. Todo ello se acompaña de trazos hechos a mano que dan forma a un ecosistema lleno de elementos improvisados, sentimientos recién descubiertos, bocetos a lápiz y notas escritas deprisa en cuadernos gastados. Una identidad construida desde lo cercano, lo imperfecto y lo vivo; desde todo lo que ocurre cuando las personas se encuentran y se atreven a crear.",
         
         images: [
             "./assets/img/itaca/portada.jpg",
@@ -228,16 +223,76 @@ const projects = {
             ["./assets/img/itaca/coktel.jpg", "./assets/img/itaca/cokteles.png"],
             [ "./assets/img/itaca/iconos.png", "./assets/img/itaca/igmarinera.png"],
             "./assets/img/itaca/posavasos.jpg",
-
-
-            
-            
             ["./assets/img/itaca/poster.jpg", "./assets/img/itaca/papel.jpg"],
-            
-            
-          
-       
         ]
     },
+
+
+    proyectoPortadas: {
+        title: "Una colección de portadas",
+        subtitle: "Un batiburrillo de piezas gráficas creadas para acompañar y dar forma visual a canciones, discos y proyectos musicales de diferentes géneros. Una colección de estilos, ideas y recursos gráficos desarrollados a lo largo del tiempo, donde cada portada busca encontrar su propio lenguaje.",
+        tag: "Caratulas · Música · Dispar · Divertido · Experimentación",
+        service: "Direcion de arte · Portadas ·  Ilustracción · Fotografía",
+        year: "2023 - NOW",
+
+        heading: "Portadas a medida",
+        text: "Cada canción, cada disco, cada proyecto musical tiene algo que contar antes de que suene la primera nota. Esta colección reúne piezas gráficas creadas para darle forma visual a ese primer mensaje, a lo largo del tiempo y a través de géneros muy distintos. Es un batiburrillo de estilos, ideas y recursos con mi sello personal.",
+       
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
+        
+        images: [
+            ["./assets/img/portadas/mensaje.png", null],
+            ["./assets/img/portadas/musica-0.png", "./assets/img/portadas/nachito2.jpg",],
+            [null, "./assets/img/portadas/musica-1.png",],
+            "./assets/img/portadas/perdon1.png",
+            ["./assets/img/portadas/angel1.jpg", "./assets/img/portadas/angel2.jpg",],
+            ["./assets/img/portadas/salsa.jpg", null,],
+            [null, "./assets/img/portadas/santportada.jpg",],
+            ["./assets/img/portadas/sant1.jpg", "./assets/img/portadas/sant2.jpg"],
+            ["./assets/img/portadas/sant4.jpg", "./assets/img/portadas/musica-2.png",],
+            ["./assets/img/portadas/guille2.png", "./assets/img/portadas/guille33.png"],
+            "./assets/img/portadas/guille4.png",
+            ["./assets/img/portadas/guille5.png", ""],
+
+          
+        ]
+    },
+
+
+    proyectoCarteles: {
+        title: "Una colección de carteles",
+        subtitle: "Un batiburrillo de piezas gráficas creadas para promocionar conciertos y eventos musicales de diferentes géneros. Una colección de estilos, ideas y recursos gráficos desarrollados a lo largo del tiempo, donde cada cartel busca encontrar su propio lenguaje.",
+        tag: "Caratulas · Música · Dispar · Divertido · Experimentación",
+        service: "Direcion de arte · Carteles ·  Ilustracción · Fotografía",
+        year: "2023 - NOW",
+
+        heading: "Carteles a medida",
+        text: "Cada canción, cada disco, cada proyecto musical tiene algo que contar antes de que suene la primera nota. Esta colección reúne piezas gráficas creadas para darle forma visual a ese primer mensaje, a lo largo del tiempo y a través de géneros muy distintos. Es un batiburrillo de estilos, ideas y recursos con mi sello personal.",
+       
+        ACC1heading: "",
+        ACC1text: "",
+        ACC2heading: "",
+        ACC2text: "",
+        
+        images: [
+    
+            [null,"./assets/img/carteles/cartel-0.png",],
+            ["./assets/img/carteles/cartel-1.png", "./assets/img/carteles/metro1.png"],
+            ["./assets/img/carteles/metro2.png", ""],
+
+            ["./assets/img/carteles/cartel-2.png", "./assets/img/carteles/marta.jpg"],
+            "./assets/img/carteles/guille1.png",
+            "./assets/img/carteles/guille2.png",
+            ["./assets/img/carteles/sant1.jpg", "./assets/img/carteles/sant2.jpg"],
+
+      
+
+          
+        ]
+    },
+
 
 };
