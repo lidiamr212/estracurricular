@@ -51,12 +51,17 @@ const projects = {
             [null, "./assets/img/calima/ig.png"],
 
             "./assets/img/calima/calima-4.png",
-            "./assets/img/calima/calima-ordenador.jpg",
-            "./assets/img/calima/calima-5.png",
-            "./assets/img/calima/letrero-4.png",
+            "./assets/img/calima/post.jpg",
+            ["./assets/img/calima/estrella.png","./assets/img/calima/movil4.jpg"],
+            "./assets/img/calima/portada1.png",
 
+            "./assets/img/calima/letrero-4.png",
             "./assets/img/calima/calima-movil.jpg",
+             "./assets/img/calima/calima-5.png",
+
             ["./assets/img/calima/calima-6a.jpg", "./assets/img/calima/calima-6b.png"],
+            "./assets/img/calima/Banner.png",
+
             "./assets/img/calima/calima-8.png",
             "./assets/img/calima/letrero-2.png",
         ]
