@@ -20,7 +20,7 @@ const projects = {
         
         images: [
             "./assets/img/abbey/murcia-1.jpg",
-            "./assets/img/abbey/cartel-rutas.png",
+            "./assets/img/abbey/Cartel-Rutas.png",
             ["./assets/img/abbey/cartel1.jpg","./assets/img/abbey/cartel2.png"]
         ]
     },
