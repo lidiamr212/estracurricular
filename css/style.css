@@ -20,6 +20,22 @@ a, button {
     font-weight: initial;
 }
 
+.tag {
+border: 1px solid #111;
+padding: 1px 4px 0px 4px;
+border-radius: 5px;
+color: #111;
+width: fit-content;
+
+display: flex;
+align-items: center;
+gap: 6px;
+}
+
+.tag:hover{
+background-color: white;
+}
+
 html,
 body {
     width: 100vw;
@@ -89,21 +105,40 @@ mark {background-color: white; padding: 0.5px 2px ;}
   width: calc(100% - 32px);
   height: fit-content;
   margin-top: 16px;
-  padding: 16px;
   background-color: var(--verdeClaro);
 
   & .bloque__titulo {
-    display: flex; flex-direction: column; gap: 16px;
-    width: 53%;
-    margin-block: 100px 120px;
-    margin-left: 40px;
-  
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-block: 80px 100px;
+    align-items: center;
+    gap: 16px;
+
+    
+
+    & h3 { 
+      font-size: 4.2rem;
+      max-width: 850px;
+      letter-spacing: -0.04em;
+      padding-bottom: 6px;
+      }
+
+    & .text-body {
+      text-transform:none; 
+      letter-spacing: 0px;
+    }
+  }
+  & .bloque__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   }
   & img {
     position: absolute;
     width: 200px;
-    top: 30%;
-    right: 10%;
+    top: 28%;
+    right: 42%;
     transform: scaleX(-1);
   }
   & .linea {
@@ -112,15 +147,17 @@ mark {background-color: white; padding: 0.5px 2px ;}
   }
   & .bloque__contacto {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-block: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 4px;
 
     & .bloque__contacto_sub { 
     display: flex;
     flex-direction: column;
     gap: 4px;
       & address, a {font-style: normal; text-decoration: none;  }
+      & svg {transform: translateY(2px);}
     }
   }
  }
