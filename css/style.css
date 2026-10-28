@@ -115,7 +115,7 @@ mark {background-color: white; padding: 0.5px 2px ;}
     align-items: center;
     gap: 16px;
 
-    
+    & .margen {padding-left: 80px}
 
     & h3 { 
       font-size: 4.2rem;
@@ -133,6 +133,7 @@ mark {background-color: white; padding: 0.5px 2px ;}
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding-right: 80px
   }
   & img {
     position: absolute;
@@ -290,10 +291,15 @@ mark {background-color: white; padding: 0.5px 2px ;}
     padding: 24px;
 
       & .bloque__titulo {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        margin-block: 16px 64px;
+        margin-block: 16px 16px;
         margin-left: 0px;
         gap: 24px;
+
+        & .margen {padding-left: 0px }
+        
       }
       & img { 
         width: 165px; 
@@ -301,10 +307,11 @@ mark {background-color: white; padding: 0.5px 2px ;}
         left: 50%;
          transform: translateX(-50%);
       }
+      & .bloque__texto{padding-right: 0px}
       & .bloque__contacto {
         display: flex;
         flex-direction: column;
-        padding-block: 24px 8px; gap: 24px;
+        padding-block: 8px 8px; gap: 24px;
       }
     }
 
