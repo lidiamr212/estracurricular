@@ -80,7 +80,7 @@
                     <div class="linea" style="margin-block: 32px"></div>
 
 
-                    <form action="https://formsubmit.co/4d8800e7512d9c7889bf5c413d35f6f7" method="POST" class="formulario">
+                    <form id="reserva" action="https://formsubmit.co/4d8800e7512d9c7889bf5c413d35f6f7" method="POST" class="formulario">
                     <label for="nombre" class="text-label ">Nombre</label>
                     <input id="nombre" name="nombre" type="text" required />
 
@@ -94,13 +94,33 @@
                         <option value="Correos" class="text-body">Envio por Correos (Precio por ver)</option>
                     </select>
 
-                    <label class="text-label boton">
-                        <input  type="checkbox" name="acepta" style=" transform: translateY(-1px);" required />
-                        Acepto los términos
-                    </label>
+                      <input type="hidden" name="_captcha" value="false">
                       <input type="hidden" name="_next" value="https://estracurricular.es/gracias.html">
                     <button type="submit">Enviar</button>
                     </form>
+
+<script>
+document.getElementById('reserva').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button[type="submit"]');
+  btn.disabled = true;
+  btn.textContent = 'Enviando...';
+
+  const envio = fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+    headers: { 'Accept': 'application/json' },
+    keepalive: true
+  }).catch(() => {});
+
+  const espera = new Promise(r => setTimeout(r, 2000));
+
+  Promise.race([envio, espera]).then(() => {
+    window.location.href = 'https://estracurricular.es/gracias.html';
+  });
+});
+</script>
                     
                 </div>
             </div>
