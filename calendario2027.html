@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estracurricular Design</title>
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  	
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+</head>
+
+<body>
+<aside class="botonback">
+    <button onclick="history.back()"><span class="arrow"></span> <p class="text-heading-3">Volver</p></button>
+</aside>
+    <main>
+    <div class="projectPage">
+    
+                <div class="bloqueTitulo">
+                    <h1 class="text-display">Calendario bonito para 2027</h1>
+                    <h2 class="text-heading-1">Calendario divertido en A4 con mucho espacio para anotar cumpleaños, planes y todo lo que va llegando durante el año. Impreso con risografía a dos tintas por página y seis colores en total, sobre papel 150 gr ahuesado. Bueno bonito y a un precio competitivo</h2>
+                </div >
+       
+        <section class="bloque">
+
+            <div class="bloquePhotos">
+                <div class="images-row">
+                <img src="./assets/img/calendario/Enero.jpg" alt="Imagen del calendario" />
+                <img src="./assets/img/calendario/Octubre.jpg" alt="Imagen del calendario" />
+                </div>
+                <div class="images-row">
+                <img src="./assets/img/calendario/Julio.jpg" alt="Imagen del calendario" />
+                <img src="./assets/img/calendario/Agosto.jpg" alt="Imagen del calendario" />
+                </div>
+                <div class="images-row">
+                <img src="./assets/img/calendario/Mayo.jpg" alt="Imagen del calendario" />
+                <img src="./assets/img/calendario/Noviembre.jpg" alt="Imagen del calendario" />
+                </div>
+                <div class="images-row">
+                <img src="./assets/img/calendario/Marzo.jpg" alt="Imagen del calendario" />
+                <div></div>>
+                </div>
+            
+            
+            
+            </div>
+            
+            <div class="projectPage-info" >
+
+                <button class="botonVerMas" id="toggleInfo">
+                <svg width="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><g transform="rotate(-135 11 11.5)"> <path d="M1.25003 11.1222L19.4514 11.1358M9.70215 1.25L19.6016 11.1495L9.70215 21.049"stroke="#1E1E1C"stroke-width="2"stroke-miterlimit="10"stroke-linecap="round"/></g></svg>                  
+                <p class="text-heading-3" style="color: black;">VER INFO</p>
+                </button>
+
+                <div class="bloqueTexto" id="infoPanel" style="height: 100vh; overflow-x: auto; padding-bottom: 40px;">
+                    
+                        
+                        <div class="precio">
+                            <p class="text-heading-3">Consiguelo por</p>
+                            <p class="text-heading-1">19 €</p>
+                        </div>
+                            <p class="text-body">Es un proyecto pequeño y de última hora, así que, si os interesa, rellenad este formulario (o escribidme por privado). Imprimiré el calendario a principios de diciembre, según cuánta gente se apunte. En los próximos días os escribiré para confirmar el pedido y organizar el pago y el envío.
+
+                            <br><br>*Las imágenes son orientativas: el resultado final de la risografía puede variar. Es posible que retoque algunos diseños para dejarlos lo mejor posible :)
+                           
+                            </p>
+                    
+                    
+
+                    <div class="linea" style="margin-block: 32px"></div>
+
+
+                    <form id="contacto" class="formulario">
+                    <label for="nombre" class="text-label ">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" required />
+
+                    <label for="correo" class="text-label ">Correo electrónico</label>
+                    <input id="correo" name="correo" type="email" required />
+
+                    <label for="pais" class="text-label">Envio</label>
+                    <select id="pais" name="Recogida">
+                        <option value="Valencia" class="text-body">Recoger en Valencia</option>
+                        <option value="Murcia" class="text-body">Recoger en Murcia</option>
+                        <option value="Correos" class="text-body">Envio por Correos (Precio por ver)</option>
+                    </select>
+
+                    <label class="text-label boton">
+                        <input  type="checkbox" name="acepta" style=" transform: translateY(-1px);" required />
+                        Acepto los términos
+                    </label>
+                      <input type="hidden" name="_next" value="https://estracurricular.es/gracias.html">
+                    <button type="submit">Enviar</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        </div>
+    </main>
+
+<!-- START: Footer -->
+<footer>
+<section class="textoFooter">
+<!-- Bloque 1 -->
+  <span>
+  <span class="claim"><h2 class="text-heading-1">Después de clase</h2></span>
+  <span class="claim"><h2 class="text-heading-1 sticker">empieza lo bueno :)</h2></span>
+  </span>
+<!-- Bloque 3 -->
+  <div>
+    <h4 class="text-label">Diseño para ideas que van por libre</h4>
+    <span>
+      <svg width="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25003 11.1222L19.4514 11.1358M9.70215 1.25L19.6016 11.1495L9.70215 21.049" stroke="#1E1E1C" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/></svg>
+      hola@estracurricular.es<mark>[EMAIL]</mark>
+    </span>
+    <span>
+      <svg width="15" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25003 11.1222L19.4514 11.1358M9.70215 1.25L19.6016 11.1495L9.70215 21.049" stroke="#1E1E1C" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"/></svg>
+      @estracurricular <mark>[IG]</mark>
+    </span>
+    
+    <p class="text-body" style="margin-top: 24px;">¿Empezamos?<br> Solo falta que digas 'hola' (ya sabes dónde)</p>
+  </div>
+</section>
+<!-- Bloque NOMBRE -->
+<section class="logoFooter">
+  <span>Estracurricular</span>
+</section>
+  <p class="text-label" style=" text-align: center;">© 2026  / Diseñado en Figma - Construido en Visual Code / Aviso legal / Política de Privacidad</p>
+
+</footer>
+ <!-- END: Footer -->
+  
+ 
+<script src="./js/accordion.js"></script>
+<script src="./js/data-project.js"></script>
+<script src="./js/page-projects.js"></script>
+
+
+
+</body>
+
+</html>

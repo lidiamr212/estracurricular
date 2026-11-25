@@ -30,3 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// Panel overlay
+
+const toggleInfo = document.querySelector('#toggleInfo');
+const infoPanel = document.querySelector('#infoPanel');
+
+toggleInfo.addEventListener('click', () => {
+  infoPanel.classList.toggle('active');
+  toggleInfo.classList.toggle('active');
+});
