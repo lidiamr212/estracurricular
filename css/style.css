@@ -80,7 +80,9 @@ mark {background-color: white; padding: 0.5px 2px ;}
     border-bottom: 1px solid #2121219e ;
   }
 
-  .fila{ display: flex; flex-direction: row; gap: 8px;}
+.fila{ display: flex; flex-direction: row; gap: 8px;}
+
+.hidden {display: none;}
 
 
 /* 1. Header
@@ -807,7 +809,7 @@ background-color: var(--azulClaro);
     text-overflow: ellipsis;
   }
   }
-
+ .precio{margin-top:0}
 }
 
 
