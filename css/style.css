@@ -687,7 +687,7 @@ background-color: var(--azulClaro);
   }
   & .boton {display: flex; gap: 8px}
   & button { 
-    margin-top: 16px;
+    margin-top: 24px;
     font-weight: 200 !important; 
     font-size: 1rem;
     background-color: var(--azulClaro);
@@ -790,7 +790,7 @@ background-color: var(--azulClaro);
         overflow-y: auto;
         transform: translateY(20px);
         padding-block: 40px;
-        padding-inline:8px;
+        padding-inline:16px;
 
         & #project-year {text-align: left;}
         .accordion-header {margin-top: 4px;}
