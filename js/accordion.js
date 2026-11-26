@@ -35,8 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const toggleInfo = document.querySelector('#toggleInfo');
 const infoPanel = document.querySelector('#infoPanel');
+const textoBoton = toggleInfo.querySelector("p");
 
 toggleInfo.addEventListener('click', () => {
   infoPanel.classList.toggle('active');
   toggleInfo.classList.toggle('active');
+
+textoBoton.textContent = textoBoton.textContent === "VER INFO"
+  ? "OCULTAR INFO"
+  : "VER INFO";
+
 });
